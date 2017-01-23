@@ -6,7 +6,7 @@ public class MoveBlocks : MonoBehaviour {
 	public float Speed;
 	public Transform targetPosition;
 	void Start () {
-	Destroy(gameObject,10);
+	Destroy(gameobject,10);
 	}
 	
 	
