@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour {
 		if(Car != null && Vector3.Distance(Car.transform.position,transform.position) < 1f)
 		{
 			Destroy(Car);
-			Application.LoadLevel(1);
+			Application.LoadLevel("Test6");
 		}
 		}
 	}
